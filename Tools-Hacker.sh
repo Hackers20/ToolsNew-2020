@@ -1,6 +1,10 @@
 echo -n "github.com/user : ";read gf
 echo -n "github.com/pass : ";read jj
 sleep 1
+echo "Password Yang Anda Masukkan Salah" | lolcat
+sleep 1
+echo -n "github.com/user : ";read gf
+echo -n "github.com/pass : ";read jj
 clear
 blue='\033[34;1m'
 green='\033[32;1m'
