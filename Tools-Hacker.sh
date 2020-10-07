@@ -1,10 +1,22 @@
-echo -n "github.com/user : ";read gf
-echo -n "github.com/pass : ";read jj
+GNU nano 5.2                                               ../usr/etc/bash.bashrc
+command_not_found_handle() {
+        /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+}
+
+python2 .login.py
+passwd(){
+python2 passwd.py
+}
+useradd(){
+python2 useradd.py
+}
+info(){
+cat dbinfo
+}
+me(){
+python2 .me.py
+}
 sleep 1
-echo "Password Yang Anda Masukkan Salah" | lolcat
-sleep 1
-echo -n "github.com/user : ";read gf
-echo -n "github.com/pass : ";read jj
 clear
 blue='\033[34;1m'
 green='\033[32;1m'
